@@ -1,0 +1,119 @@
+* {
+    background-color: #ffffff;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0 ;
+    font-family: 'Gill Sans';
+}
+/* .login-page{
+    margin-top: 15vh;
+    background-color: aliceblue;
+}
+    
+.login-1{
+color: white;
+background-color: #7E5CAD;
+width: 50%;
+height: 50%;
+align-content: center;
+margin-left: 25% ;
+border-radius: 17px;
+border-color: #aea2fa;
+border-width: 3px;
+margin-bottom: 25%;
+}
+
+.logo-1{
+    margin-left: 38%;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+.bars{
+    align-content: center;
+    margin-top: 40px;
+    font-family: 'Gill Sans';
+    height: 40vh ;
+}
+.data{
+    align-content: center;
+    align-items: center;
+}
+#name{
+    margin-left: 20px;
+}
+
+.bars #name input{
+    border-radius: 5px;
+}
+
+.connection{
+    width: 50%;
+    margin: 0 auto;  
+    padding: 20px; 
+    text-align: center;
+} */
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(151, 151, 151);
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0,0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    box-shadow:  2px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.logo-1{
+    color: #410101;
+    text-shadow: 2px 2px 8px #FF4500;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Verdana', sans-serif;
+}
+
+.bars{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.data{
+    padding: 20px;
+    margin: 0 0 5px 0;
+}
+
+.connection{
+    
+    display: flex;
+    padding: 20px;
+    margin: 0 0 5px 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.connection .op{
+    background: #410101;
+    border-color: rgb(109, 109, 106);
+    border-radius: 4px;
+    padding: 10px 9px 10px 9px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out;
+}
+
+.connection a:hover{
+    transform: translateY(5px);
+    background: #600000;
+  text-shadow: 2px 2px 8px #FF4500;
+  box-shadow: 0 0 15px #FF4500;
+}
