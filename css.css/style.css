@@ -147,11 +147,12 @@ i{
   padding-top: 30%;
 }
 .image .profile_img {
-  transition: all 0.5s ease-in-out;
+    height: 500px;
+  transition: all 0.2s ease-in-out;
 }
 
 .image .profile_img:hover {
-  height: 1000px;
+  height: 550px;
   width: auto;
   background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
 }
