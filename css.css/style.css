@@ -236,7 +236,7 @@ i{
     width: 0;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -485,7 +485,7 @@ text-align: center;
 }
 
 .right-container::after {
-  left: -13px;
+  left: -17px;
 }
 
 .text-box {
