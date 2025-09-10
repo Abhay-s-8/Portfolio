@@ -78,7 +78,23 @@
     padding: 20px;
   }
 
+  .int .short {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
 
+  .image .profile_img {
+    height: 250px;
+  }
+
+  .objective .box1 {
+    width: 95%;
+  }
+
+  .skills img {
+    height: 50px;
+    margin: 10px;
+  }
 
   .respo::after {
     left: 20px;
