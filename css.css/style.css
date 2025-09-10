@@ -1,8 +1,4 @@
-/* =========================
-   RESPONSIVE DESIGN
-   ========================= */
 
-/* For tablets (≤ 1024px) */
 @media (max-width: 1024px) {
   .navbar {
     flex-direction: column;
@@ -60,7 +56,7 @@
   }
 }
 
-/* For mobile (≤ 768px) */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
