@@ -16,7 +16,12 @@
     height: auto;
   }
 
-
+  .int .short, 
+  .int .nameTag {
+    flex-basis: 100%;
+    padding: 50px 20px;
+    text-align: center;
+  }
 
   .image .profile_img {
     height: 300px;
