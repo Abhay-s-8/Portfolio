@@ -10,7 +10,11 @@
     font-size: 0.9rem;
   }
 
-
+  .int {
+    flex-direction: column;
+    padding: 50px 20px;
+    height: auto;
+  }
 
   .int .short, 
   .int .nameTag {
