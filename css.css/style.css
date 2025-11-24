@@ -9,7 +9,8 @@
 
 body {
     background-color: #000000;
-    overflow: hidden; /* hides all overflowing content */
+    overflow-x: hidden; 
+    overflow-y: auto;   
 }
 
 i {
